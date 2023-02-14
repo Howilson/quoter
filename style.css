@@ -1,0 +1,21 @@
+h1{
+    font-size: 30px;
+    padding-top: 15px;
+}
+blockquote{
+    font-size: 26px;
+}
+figcaption{
+    font-size: 18px;
+    position: relative;
+    left: 600px;
+}
+[role="button"], button, input[type="button"], input[type="reset"], input[type="submit"] {
+  width: 33%;
+  background-color: transparent;
+  border-width: .18em;
+  color: var(--primary);
+  font-size: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+}

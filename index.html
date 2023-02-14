@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>title</title>
-    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <main>
-        <h1>Title</h1>  
+        <h1>Best of FRIENDS and New Girl Quotes</h1>  
         <figure>
-        <blockquote> this is a quote </blockquote>
-        <figcaption>cited</figcaption>
+        <blockquote id="blockquote"> Quotes with be here for you </blockquote>
+        <figcaption id="author">Someone Fantastic</figcaption>
+        <div class="inputs">
+          <select name="category" id="select">
+            <option value="friends">FRIENDS</option>
+            <option value="newgirl">New Girl</option>
+          </select>
+          <button role="button" onclick="getCat()">Get</button>
+        </div>
         </figure>
-        <button> click</button>
     </main>
 	<script src="data.js"></script>
   <script src="main.js"></script>

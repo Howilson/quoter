@@ -5,17 +5,28 @@ h1{
 blockquote{
     font-size: 26px;
 }
+.container{
+max-height: 1200px;
+}
 figcaption{
     font-size: 18px;
     position: relative;
     left: 600px;
 }
 [role="button"], button, input[type="button"], input[type="reset"], input[type="submit"] {
-  width: 33%;
+  width: 20%;
   background-color: transparent;
   border-width: .18em;
   color: var(--primary);
   font-size: 100%;
   font-weight: 600;
   text-transform: uppercase;
+  position: fixed;
+  left: 50px;
+  top: 130px;
+}
+.inputs{
+    position: fixed;
+    top: 42px;
+    left: 950px;
 }

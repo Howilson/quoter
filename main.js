@@ -11,3 +11,4 @@ function getCat() {
     quoteAuthor.innerText = cat[rand].author;
      
     }
+ 

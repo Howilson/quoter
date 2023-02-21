@@ -1,17 +1,23 @@
 h1{
     font-size: 30px;
     padding-top: 15px;
+    position: fixed;
+    left: 100px;
+    top: 10px;
 }
 blockquote{
     font-size: 26px;
-}
-.container{
-max-height: 1200px;
+    position: fixed;
+    left: 220px;
+    top: 80px;   
+    display: block;
+
 }
 figcaption{
     font-size: 18px;
-    position: relative;
-    left: 600px;
+    position: fixed;
+    top: 175px; 
+    left: 850px;
 }
 [role="button"], button, input[type="button"], input[type="reset"], input[type="submit"] {
   width: 20%;
@@ -25,6 +31,21 @@ figcaption{
   left: 50px;
   top: 130px;
 }
+.button-F{
+position: fixed;
+left: 500px;
+top: 10px;
+}
+.button-N{
+position: fixed;
+left: 450px;
+top: 20px;
+}
+.button-home{
+    position: fixed;
+    left: 400px;
+    top: 20px;
+    }
 .inputs{
     position: fixed;
     top: 42px;
